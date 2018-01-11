@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Reciclar Eletronicos</title>
+	<link href="estilo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="#0099FF">
+    <div id="cabecalho">
+    	<img src="Imagem/logo2.png" align="left" width="124" height="108" />
+        <h1><center>Faça a sua Pergunda</center></h1>
+	 	<nav id="menu1">
+     		<ul>
+     			<li><a href="index.html">Home</a></li> 
+     			<li><a href="materia_prima.html">Materia Prima</a></li> 
+     			<li><a href="ongs.html">Locais de Descarte</a></li>
+     			<li><a href="faq.html">Fale Conosco</a></li>
+     		</ul>
+     	</nav>
+    </div><!-- FIM DA DIV CABECALHO -->
+	<div id="conteudo">
+    	<form>
+            <fieldset id="usuario">
+            	<legend>Identificação do Usuário</legend>
+            	<p>Nome:<input type="text" name="tNome" id="cNome" size="50" placeholder="Nome Completo"/></p>
+            	<p>E-mail:<input type="email" name="tMail" id="cMail"size="70" /></p>
+            <fieldset id="sexo">
+            	<legend>Sexo:</legend> 
+            	<input type="radio" name="tSexo" id="cMasc" />Masculino<br />
+            	<input type="radio" name="tSexo" id="cFem" />Feminino
+            </fieldset>
+            	<p>Data Nascimento:<input type="date" name="tNasc" id="cNasc" /></p>
+            </fieldset>
+            <fieldset id="mensagem">
+           	<legend>Mensagem do Usuárío</legend>
+           		<p>Assunto:<input type="text" name="tTitulo" id="cTitulo"  size="20" maxlength="20"/></p>
+            	<p>Pergunta:<textarea name="textarea" id="textarea" cols="60" rows="7"></textarea>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

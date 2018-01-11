@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+/* TEXTO */
+h1 {
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform: none;
+}
+h2 {
+	font-family: Arial;
+	font-size: 20px;
+	font-variant: small-caps;
+	text-align:center;
+}
+p#normal {
+	font-size: 15px;
+	text-align: justify;
+	font-family: Arial;
+}
+li {
+	font-family: Arial;
+	font-size: 15px;
+	text-align:justify;
+}
+/* MENU */
+nav#menu1 ul {
+	list-style: none;
+	float: right;
+}
+nav#menu1 li {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #666;
+	padding: 10px;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	transition: background-color 2s;
+}
+nav#menu1 li:hover {
+	background-color:#FFF;
+}
+nav#menu1 a {
+	color:#000;
+	text-decoration: none;
+}
+nav#menudwo ul {
+	list-style: none;
+	float:left;
+	margin: 0px -20px 0px -30px;
+}
+nav#menudwo li {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	background-color:#666;
+	display: list-item;
+	margin: 1px;
+	transition: background-color 2s;
+	width: 150px;
+}
+nav#menudwo li:hover {
+	background-color:#FFF;
+}
+nav#menudwo a {
+	color:#000;
+	text-decoration: none;
+}
+/* divs do site */
+div#conteudo {
+	width: 1000px;
+	background-color:#CCC;
+	margin: 30px auto 0px auto;
+	box-shadow: 0px 0px 20px #06C;
+	padding: 10px;
+}
+div#cabecalho {
+	width: 1007px;
+	background-color:#CCC;
+	height: 108px;
+	margin: -20px auto 30px auto;
+	padding: 6px;
+	box-shadow: 0px 0px 20px #06C;
+}
+section#conteudopg1 {
+	width: 600px;
+	display: block;
+	float:left;
+	border-right: groove #000;
+	padding: 20px;
+}
+aside#lateralpg1 {
+	width: 310px;
+	display: block;
+	float:right;
+	padding: 20px;
+}
+footer {
+	clear:both;
+	border-top:groove;
+	font-family: Arial;
+	text-align:center;
+	padding:10px;
+}
+section#conteudopg2 {
+	display: block;
+	width: 750px;
+	float: right;
+	padding: 0px 10px 0px 20px;
+	border-left: groove #000;
+}
+aside#lateralpg2 {
+	display: block;
+	width: 190px;
+	float: left;
+}
+/* Imagens */
+img#texto1 {
+	background-color:#FFF;
+	padding: 5px;
+	box-shadow: 0px 0px 20px #666;
+	width: 400px;
+	height: 240px; 
+}
+img#texto2 {
+	background-color:#FFF;
+	padding: 5px;
+	box-shadow: 0px 0px 20px #666;
+	width: 173px;
+	height: 173px;
+}
+img#pg2 {
+	background-color:#FFF;
+	margin: 0px 30px 0px 30px;
+	width: 300px;
+	height: 240px;
+	padding: 5px;
+	box-shadow: 0px 0px 20px #666;
+}
+img#pg3 {
+	width: 300px;
+	height: 115px;
+}
